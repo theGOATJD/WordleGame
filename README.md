@@ -3,9 +3,9 @@ A C++ project for wordle game
 
 Wordle is a web-based word game created and developed by Welsh software engineer Josh Wardle.
 Players have six attempts to guess a five-letter word, with feedback given for each guess in the form of colored tiles indicating when letters match or 
-occupy the correct position. The letter with grey background color is not part of the word you need to guess for. 
+occupy the correct position. The letter with default(grey) color is not part of the word you need to guess for. 
 The letter with yellow color is the letter that is actually part of word not at the correct position. The letter with green color is part of the word and is in the
-correct position. The goal for this game is basically make sure word with green background color apear five times within six attempts.
+correct position. The goal for this game is basically make sure letters with green color apear five times within six attempts.
 
 The game is not easy to win. So cherish every tries you have. 
 
