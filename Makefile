@@ -11,4 +11,7 @@ OBJECTS := $(SOURCES:.cpp=.o)
 main:  ${OBJECTS}
 	g++ -o $@ ${OBJECTS}
 
+testing: main
+	 ./main > /dev/null
+	 @if [ $$? -eq 0]; then echo "test passed": fi
 
